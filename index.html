@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma première page HTML</title>
+    <link rel="icon" href="logo html.png">
+    <style>
+        .bouton {
+            background-color: blueviolet;
+            color: aliceblue;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline;
+        }
+
+        #bouton-1 {
+            background-color: brown;
+        }
+        #bouton-2 {
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        alert('Bienvenue sur mon site')
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Comment coder</h1>
+        <nav>
+            <ul>
+                <li><a href="a.html">La balise d'ancrege a</a></li>
+                <li><a href="div.html">La balise div</a></li>
+                <li><a href="form.html">La balise de formulaire</a></li>
+                <li><a href="heading.html">Les balises de titre</a></li>
+                <li><a href="img.html">La balise d'image</a></li>
+                <li><a href="index.html">La balise d'input</a></li>
+                <li><a href="listes.html">Les balises ul, ol, li</a></li>
+                <li><a href="p.html">La balise pour les paragraphes</a></li>
+                <li><a href="span.html">La balise pour séléctionner du textes </a></li>
+                <li><a href="strong-em.html">Les balises pour mettre en gras ou en italique</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Article de blog</h2>
+            <article>
+                <h3>Mon super article</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati incidunt laudantium, temporibus quia dicta doloribus rem quam deserunt soluta, consequuntur esse, officia eaque ea consectetur in eos. Aliquid, error ipsum.
+                </p>
+                <p>
+                    <strong>
+                        L'introduction de mon article de blog résumé en un paragraphe !
+                    </strong>
+                </p>
+            </article>
+        </section>
+        <h2>Tableaux</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                 <th>Prénoms</th>
+                 <th>Âge</th>
+                 <th>Moyennes</th>
+                </tr>
+            </thead>
+            <tbody>
+               <tr>
+                <td>Tamaleto</td>
+                <td>15</td>
+                <td>16/20</td>
+               </tr> 
+               <tr>
+                <td>Tailusi</td>
+                <td>15</td>
+                <td>18/20</td>
+               </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>2</td>
+                    <td>15</td>
+                    <td>17/20</td>
+                </tr>
+            </tfoot>
+        </table>
+        <section>
+            <h2>Input texte</h2>
+            <input type="text">
+            <br>
+            <br>
+            <textarea rows="5" cols="50" placeholder="Mon super textarea"></textarea>
+        </section>
+        <section>
+            <h2>Autres</h2>
+            <code>print:("bonjour")</code>
+        </section>
+        <section>
+            <h2>Boutons</h2>
+            <div class="bouton" id="bouton-1">Bouton 1</div>
+            <div class="bouton" id="bouton-2">Bouton 2</div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h5>Réseaux sociaux</h5>
+            <ol>
+                <li><a href="https://www.youtube.com/@commentcoder">Youtube</a></li>
+                <li><a href="https://www.github.com/@commentcoder">Github</a></li>
+                <li><a href="https://www.tiktok.com/@commentcoder">Tiktok</a></li>
+            </ol>
+        </div>
+        <span>Commentcoder 2024</span>
+    </footer>
+</body>
+</html>
